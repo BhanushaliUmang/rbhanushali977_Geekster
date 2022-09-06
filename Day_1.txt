@@ -1,0 +1,86 @@
+Q1
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello I an enjoying coding");
+    }
+}
+
+Q2
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("enjoying");
+        System.out.println("coding");
+    }
+}
+
+Q3
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+       int a = 100;
+        int b = 8;
+        int c = 3;
+        System.out.println(a+b+c);
+        System.out.println(a*b*c);
+    }
+}
+
+Q4// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+       int a = 100;
+        int b = 40;
+        System.out.println(a-b);
+    }
+}
+
+Q5
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+    }
+}
+
+Q6// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("****");
+    }
+}
+
+Q7// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+       int a = 987653;
+        System.out.println(a%10);
+    }
+}
+
+Q8// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+       int m = 15;
+        int n = 4;
+        System.out.println(m + n);
+        System.out.print(m - n);
+        System.out.print(" "+ m * n);
+    }
+}
