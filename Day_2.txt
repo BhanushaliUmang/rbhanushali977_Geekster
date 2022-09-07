@@ -1,0 +1,108 @@
+Q1 
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int d = sc.nextInt();
+        int r = d/2;
+        System.out.println(3.14 * r * r);
+    }
+}
+
+Q2
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double d = sc.nextDouble();
+        double r = sc.nextDouble();
+        System.out.println(0.5 * d * r);
+    }
+}
+
+Q3
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        if(r>1000){
+        System.out.println("true");}
+        else{System.out.println("false");}
+    }
+}
+
+Q4 done
+
+Q5
+a. Int x = 7+3+4                  14
+b. Int x = 12 + 5 + 8             25
+c. Int x= 13/5 + 18/8             4
+d. double x= 12 + 5.0 + 2.76      19.76  
+e. double x= 12/3 + 13/2          10.50
+f. double x=12/3 + 13.0/2         10.5
+g. double x=14/2 + 15.0/4         10.75
+h. double x= 13/2 % 5/3           0.0
+i. double x= 17.0/2 % 16.0/4      2.125
+
+Q6
+a. boolean ans = 3 > 2            true
+b. boolean ans = 3 ≥ 3            true
+c. boolean ans = 4 + 3 > 9        false
+d. boolean ans = 10 + 8 > 10      true
+e. boolean ans = 12 != 10         true
+f. boolean ans = 13 == 13         true
+g. boolean ans = 14 != 14         false
+h. boolean ans = 20 == 5*4        ture
+i. boolean ans = 30 != 3+4-10     true
+j. boolean ans = 20 == 41/2       true
+
+Q7
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        double a = sc.nextInt();
+        double b = sc.nextInt();
+        double c = sc.nextInt();
+        double d = sc.nextInt();
+        double e = sc.nextInt();
+        System.out.println(a+b+c+d+e);
+        System.out.println((a+b+c+d+e)/5);
+    }
+}
+
+Q8
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        if(a*b*c*d > 1000){
+        System.out.println("true");}
+        else{ System.out.println("false");}
+    }
+}
+
+Q9
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a%7 == 0){
+        System.out.println("true");}
+        else{ System.out.println("false");}
+    }
+}
+
+Q10 done
