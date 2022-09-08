@@ -1,0 +1,46 @@
+Q1
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+       if(a > 100 && b > 10){
+           System.out.println("a is above 100 and b is above 10");
+       }
+       else  if(a > 50 && b > 50){
+           System.out.println("a is above 50 and b is above 50");
+       }
+         else  if(a > 20 && b > 100){
+           System.out.println("a is above 20 and b is above 100");
+       }
+        else{
+             System.out.println("None");
+        }
+    }
+}
+
+Q2
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        int h = sc.nextInt();
+        int w = sc.nextInt();
+        int a = sc.nextInt();
+       if(h == 5 && w == 50 && a == 10){
+           System.out.println("Overweight");
+       }
+      else if(h == 5 || w == 60){
+           System.out.println("Fit");
+       }
+        else if(h == 6 && w == 50){
+           System.out.println("Slim");
+       }
+        else{
+            System.out.println("None");
+        }
+    }
+}
